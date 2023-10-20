@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        select{
+            width: 30%;
+            padding: 20px;
+            border: none;
+            background-color: antiquewhite;
+            font-size: 1rem;
+            border-radius: 10px;
+
+        }
+
+        textarea {
+            resize: none;
+            width: 50%;
+            padding: 20px;
+            border: 3px solid salmon;
+            border-radius: 10px;
+            font-size: 1rem;
+
+        }
+
+        input[type=button],input[type=reset]{
+            width: 80px;
+            border: none;
+            background-color: tomato;
+            border-radius: 5px;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="">
+        
+        <select name="subject-name" id="subjects" placeholder="Select here">
+            <option value="c">C program</option>
+            <option value="js">JavaScript</option>
+            <option value="cplus">C++</option>
+        </select>
+        <p></p>
+        <textarea name="" id="" cols="30" rows="10">Write some comments here</textarea>
+        <p></p>
+        <input type="button" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
